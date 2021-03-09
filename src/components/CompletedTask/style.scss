@@ -1,0 +1,31 @@
+.completed-task {
+  display: flex;
+  align-items: center;
+  margin: 10px 30px;
+  padding: 10px 0px;
+  border-bottom: 1px solid grey;
+  &__checkbox {
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-right: 5px;
+  }
+  &__text {
+    min-height: 25px;
+    line-height: 25px;
+    flex-grow: 9;
+    text-align: start;
+  }
+  &__date {
+    height: 25px;
+    line-height: 25px;
+    text-align: start;
+  }
+  &__noData {
+    color: grey;
+    min-height: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    flex-grow: 9;
+    text-align: center;
+  }
+}

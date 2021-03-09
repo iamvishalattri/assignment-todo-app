@@ -1,0 +1,20 @@
+.add-task {
+  display: flex;
+  align-items: center;
+  margin: 10px 30px;
+  &__input {
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    flex-grow: 9;
+    text-align: center;
+    font-family: inherit;
+    outline: none;
+  }
+  &__button {
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 5px;
+  }
+}

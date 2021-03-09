@@ -1,0 +1,47 @@
+.active-task {
+  display: flex;
+  align-items: center;
+  margin: 10px 30px;
+  padding: 10px 0px;
+  border-bottom: 1px solid grey;
+  &__checkbox {
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-right: 5px;
+  }
+  &__text {
+    min-height: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    flex-grow: 9;
+    text-align: start;
+  }
+  &__input {
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    flex-grow: 9;
+    text-align: center;
+    font-family: inherit;
+    outline: none;
+  }
+  &__edit {
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 5px;
+  }
+  &__delete {
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 5px;
+  }
+  &__noData {
+    color: grey;
+    min-height: 25px;
+    line-height: 25px;
+    border-radius: 5px;
+    flex-grow: 9;
+    text-align: center;
+  }
+}
